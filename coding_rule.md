@@ -16,11 +16,11 @@ coding_rule
 - 改行: 一行なら無し、複数行の場合は改行
 - できるだけclassよりもidを多用する
 - スタイル: できるだけhtmlには書かず、cssに記述する
-    - 良い例 `<div style="font-size: 12px">`
-    - 悪い例 `<div id="section">`
+    - 良い例: `<div id="section">`
+    - 悪い例: `<div style="font-size: 12px">`
 - 属性間はスペースを開ける  
-    - 良い例 `<link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css">`
-    - 悪い例 `<link rel="stylesheet"type="text/css"href="./stylesheets/stylesheet.css">`
+    - 良い例: `<link rel="stylesheet" type="text/css" href="./stylesheets/stylesheet.css">`
+    - 悪い例: `<link rel="stylesheet"type="text/css"href="./stylesheets/stylesheet.css">`
 
 # css
 - {}の前には空白を一つ入れる  
