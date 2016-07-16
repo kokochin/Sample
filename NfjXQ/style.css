@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* element */
+body {
+    background-color: #212529;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+h2 {
+    color: #FFF;
+}
+
+h3 {
+    color: #FFF;
+}
+
+p {
+    color: #FFF;
+}
+
+a:hover {
+    color: #F00;
+}
+table {
+    color: #FFF;
+}
+
+/*id*/
+#title {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#logo {
+    background-image: url("title.jpg");
+    background-size: 500px 100px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 100px;
+    margin: 0px auto 0px auto;
+}
+/*class*/
+.content_base {
+     width: 600px;
+    margin: 50px auto;
+    background-color: #212529;
+    padding: 5%;
+}
