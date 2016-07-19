@@ -18,7 +18,7 @@ h3 {
 }
 
 a {
-    color: #FFF
+    color: #FFF;
 }
 
 p {
@@ -30,14 +30,57 @@ a:hover {
 }
 
 table {
-    color: #FFF
+    color: #FFF;
 }
 
 /*id*/
+#wrapper {
+    margin: 0px auto 0px auto;
+    width: 1200px;
+}
+
+#stall {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 200%;
+}
+
+#menu_table {
+    font-size: 30px;
+    width: 880px;
+    height: 40px;
+    margin-left: 230px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+
+#top {
+    width: 500px;
+    height: 50px;
+    font-size: 200%;
+    margin-top: 20px;
+    margin-left: 340px;
+    margin-right: 370px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
 #title {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#english {
+    width: 100px;
+    height: 0px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 0px;
 }
 
 #logo {
@@ -48,6 +91,7 @@ table {
     height: 100px;
     margin: 0px auto 0px auto;
 }
+
 /*class*/
 .content {
     color: #FFF;
@@ -57,36 +101,30 @@ table {
     margin-bottom: -100px;
     margin-left: 560px;
     margin-right: 500px;
-    margin-top: -168px;
+    margin-top: -280px;
 }
+
 .information {
     color: #FFF;
     font-size: 200%;
     width: 400px;
     height: 200px;
+    margin-top: -100px;
     margin-left: 559px;
     margin-top: 65px;
 }
+
 .content_base {
     background-image: url("day.jpg");
-    background-size: 200%;
+    background-size: 100%;
     width: 300px;
     height: 150px;
-    margin-top: -115px;
+    margin-top: 0px;
     margin-left: 146px;
     margin-right: 400px;
     margin-bottom: 100px;
     padding: 5%;
     background-repeat: no-repeat;
-}
-
-.stall {
-    width: 100px;
-    height: 50px;
-    float: left;
-    margin-left: 90px;
-    margin-top: 100px;
-    font-size: 200%;
 }
 
 .exhibit {
@@ -96,16 +134,6 @@ table {
     margin-right: 90px;
     margin-top: 100px;
     font-size: 200%;
-}
-
-.top {
-    width: 500px;
-    height: 50px;
-    font-size: 200%;
-    margin-left: 425px;
-    margin-right: 370px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
 }
 
 .picture {
@@ -119,17 +147,6 @@ table {
     margin-top: 50px;
     margin-bottom: -50px;
     background-repeat: no-repeat;
-}
-
-.menu {
-    font-size: 200%;
-    width: 1000px;
-    height: 40px;
-    margin-left: 407px;
-    margin-right: auto;
-    background-repeat: no-repeat;
-    background-size: contain;
-    vertical-align: bottom;
 }
 
 .about {
@@ -153,7 +170,7 @@ table {
     width: 400px;
     height: 200px;
     float: left;
-    margin-right: 100px;
+    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -191,14 +208,6 @@ table {
 }
 
 .japanese {
-    width: 100px;
-    height: 0px;
-    float: right;
-    margin-right: 90px;
-    margin-top: 0px;
-}
-
-.english {
     width: 100px;
     height: 0px;
     float: right;
