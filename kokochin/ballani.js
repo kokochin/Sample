@@ -15,7 +15,6 @@ function colorfulBalloon(n, max, min) {
         balloonClone.style.height = size + "px";
         document.body.appendChild(balloonClone);
     };
-
 }
 
 colorfulBalloon(10, 550, 50);
