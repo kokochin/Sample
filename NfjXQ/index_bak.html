@@ -1,28 +1,117 @@
 ﻿<!DOCTYPE html>
-<html>
-    <head>
+<html lang="ja">
+    <head>    
+        <style type="text/css"> 
+        </style>    
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
-        <title>高専祭</title>
+        <title>KOSENSAI</title>
     </head>
     <body>
-        <h1>大きな文字</h1>
-        普通の文字
-        <h6>大きな文字</h6>
-        <a href="http://www.yahoo.co.jp">yahoo</a>
+        <div class="japanese">
+            <a href="file:///C:/Users/sota/Desktop/homepage/index.html">Japanese site</a>
+        </div>
+        <div class="stall">
+            <table>
+                <th>Stalls</th>
+                <tr>
+                    <td>coming soon</td>
+                </tr>
+            </table>
+        </div>
+        <div class="exhibit">
+            <table>
+                <th>Exhibit</th>
+                <tr>
+                    <td>coming soon</td>
+                </tr>
+            </table>
+        </div>
+        <div id="title">
+            <h1>
+                <div id="logo">
+                </div>
+            </h1>
+        </div>
+        <div class="menu">
+            <a href="file:///C:/Users/sota/Desktop/homepage/index.html">HOME</a>
+            <a href="#ABOUT">ABOUT</a>
+            <a href="#GREETING">GREETING</a>
+            <a href="#TIMETABLE">TIMETABLE</a>
+        </div>
+        <div class="top">
+            <table>
+                <th>
+                    50th Festival
+                </th>
+                <tr>
+                    <td>National College of Technology in Nara</td>
+                </tr>
+            </table>
+        </div>
+        <div class="picture">
+            <img src="day.jpg" name="picture">
+            <script type="text/javascript">
+            img = new Array("sample1.jpg","sample2.jpg","sample3.jpg","sample4.jpg")
+            count = -1;
+            imgTimer();
 
-        <table style="border: #FFF 1px solid">
-            <tr>
-                <td>あ</td>
-                <td>か</td>
-                <td>さ</td>
-            </tr>
-            <tr>
-                <td>あ</td>
-                <td>か</td>
-                <td>さ</td>
-            </tr>
-            <img src="oneokrock.jpg">
-        </table>
+            function imgTimer() {
+                count++;
+                if (count == img.length) count = 0;
+                document.picture.src = img[count];
+                setTimeout("imgTimer()",4000);
+            }
+            </SCRIPT>                                
+        </div>
+        <div class="content_base">
+        </div>
+        <div class="content">
+            coming soon
+        </div>
+        <div class="information">
+            NATIONAL INSTITUTE OF TECHNOLOGY,NARA COLLEGE
+            <p>OPEN XXXX CLOSE XXXX</p>
+        </div>
+        <div class="about">
+            <table>
+                <th>
+                    <h3 id="ABOUT">ABOUT</h3>
+                </th>
+                <tr>
+                    <td>coming soon</td>
+                </tr>
+            </table>
+        </div>
+        <div class="greeting">
+            <table>
+                <th>
+                    <h3 id="GREETING">Hello, everyone/everybody.</h3>
+                </th>
+                <tr>
+                    <td>coming soon</td>
+                </tr>
+            </table>
+        </div>
+        <div class="timetable">
+            <table>
+                <th>
+                    <h3 id="TIMETABLE">TIME TABLE</h3>
+                </th>
+                <tr>
+                    <td>coming soon</td>
+                </tr>
+            </table>
+        </div>
+        <div class="access">
+            <table>
+                <tr>ACCESS MAP</tr>
+            </table>
+        </div>
+        <div class="areamap">
+        </div>
+        <div class="tips">
+            ※GUIDELINE
+        </div>
     </body>
-</html>
+    </html>

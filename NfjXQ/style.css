@@ -17,6 +17,10 @@ h3 {
     color: #FFF;
 }
 
+a {
+    color: #FFF
+}
+
 p {
     color: #FFF;
 }
@@ -24,8 +28,9 @@ p {
 a:hover {
     color: #F00;
 }
+
 table {
-    color: #FFF;
+    color: #FFF
 }
 
 /*id*/
@@ -44,9 +49,159 @@ table {
     margin: 0px auto 0px auto;
 }
 /*class*/
+.content {
+    color: #FFF;
+    font-size: 300%;
+    width: 260px;
+    height: 100px;
+    margin-bottom: -100px;
+    margin-left: 560px;
+    margin-right: 500px;
+    margin-top: -168px;
+}
+.information {
+    color: #FFF;
+    font-size: 200%;
+    width: 400px;
+    height: 200px;
+    margin-left: 559px;
+    margin-top: 65px;
+}
 .content_base {
-     width: 600px;
-    margin: 50px auto;
-    background-color: #212529;
+    background-image: url("day.jpg");
+    background-size: 200%;
+    width: 300px;
+    height: 150px;
+    margin-top: -115px;
+    margin-left: 146px;
+    margin-right: 400px;
+    margin-bottom: 100px;
     padding: 5%;
+    background-repeat: no-repeat;
+}
+
+.stall {
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-left: 90px;
+    margin-top: 100px;
+    font-size: 200%;
+}
+
+.exhibit {
+    width: 100px;
+    height: 50px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 100px;
+    font-size: 200%;
+}
+
+.top {
+    width: 500px;
+    height: 50px;
+    font-size: 200%;
+    margin-left: 425px;
+    margin-right: 370px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.picture {
+    background-image: url("oneokrock.jpg");
+    background-size: contain;
+    background-position: center;
+    width: 720px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: -50px;
+    background-repeat: no-repeat;
+}
+
+.menu {
+    font-size: 200%;
+    width: 1000px;
+    height: 40px;
+    margin-left: 407px;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: bottom;
+}
+
+.about {
+    font-size: 200%;
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+}
+
+.greeting {
+    font-size: 200%;
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-right: 100px;
+}
+
+.timetable {
+    font-size: 200%;
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.areamap {
+    background-image: url("map.jpg");
+    background-size: 80%;
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 560px;
+    margin-left: 404px;
+    margin-right: auto;
+    margin-top: 870px;
+    margin-bottom: -300px;
+}
+
+.access {
+    width: 290px;
+    height: 190px;
+    color: #FFF;
+    font-size: 300%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 757px;
+    margin-bottom: -1000px;
+}
+
+.tips {
+    color: #F00;
+    font-size: 200%;
+    width: 800px;
+    height: 100px;
+    margin-top: 500px;
+    margin-left: 600px;
+    margin-right: auto;
+}
+
+.japanese {
+    width: 100px;
+    height: 0px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 0px;
+}
+
+.english {
+    width: 100px;
+    height: 0px;
+    float: right;
+    margin-right: 90px;
+    margin-top: 0px;
 }
