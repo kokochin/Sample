@@ -1,29 +1,114 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>    
-        <style type="text/css"> 
-        </style>    
+    <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>高専祭</title>
     </head>
     <body>
-        <div id="title">
-            <h1>
-                <div id="logo">
-                </div>
-            </h1>
-        </div>
-        <div class="content_base">
-            <h2>第50回高専祭</h2>
-            <h3>DAYS</h3>
-            <p> 
-                COMING SOON
-            </p>
-            <p>
-                奈良工業高等専門学校　OPEN XXXX CLOSE XXXX
-            </p>
+        <div id="wrapper">
+            <div id="english">
+                <a href="./en.html">English site</a>
+            </div>
+            <div id="stall">
+                <table>
+                    <th>Stalls</th>
+                    <tr>
+                        <td>coming soon</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="exhibit">
+                <table>
+                    <th>Exhibit</th>
+                    <tr>
+                        <td>coming soon</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="title">
+                <h1>
+                    <div id="logo">
+                    </div>
+                </h1>
+            </div>
+            <table id="menu_table">
+                <tr>
+                    <td><a href="./index.html">HOME</a></td>
+                    <td><a href="#ABOUT">ABOUT</a></td>
+                    <td><a href="#GREETING">GREETING</a></td>
+                    <td><a href="#TIMETABLE">TIMETABLE</a></td>
+                </tr>
             </table>
+            <div id="top">
+                <table>
+                    <th>50th Festival</th>
+                    <tr><td>National College of Technology in Nara</td></tr>
+                </table>
+            </div>
+            <div class="picture">
+                <img src="day.jpg" name="picture">
+                <script type="text/javascript">
+                    img = new Array("sample1.jpg","sample2.jpg","sample3.jpg","sample4.jpg")
+                    count = -1;
+                    imgTimer();
+                    function imgTimer() {
+                        count++;
+                        if (count == img.length) count = 0;
+                        document.picture.src = img[count];
+                        setTimeout("imgTimer()",4000);
+                    }
+                </script>
+            </div>
+            <div class="content_base">
+            </div>
+            <div class="content">
+                coming soon
+            </div>
+            <div class="information">
+                奈良工業高等専門学校
+                OPEN XXXX CLOSE XXXX
+            </div>
+            <div class="about">
+                <table>
+                    <th>
+                        <h3 id="ABOUT">奈良工業高等専門学校の説明</h3>
+                    </th>
+                    <tr>
+                        <td>coming soon</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="greeting">
+                <table>
+                    <th>
+                        <h3 id="GREETING">皆さん初めまして。</h3>
+                    </th>
+                    <tr>
+                        <td>coming soon</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="timetable">
+                <table>
+                    <th>
+                        <h3 id="TIMETABLE">本日の予定</h3>
+                    </th>
+                    <tr>
+                        <td>coming soon</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="access">
+                <table>
+                    <tr>アクセスマップ</tr>
+                </table>
+            </div>
+            <div class="areamap">
+            </div>
+            <div class="tips">
+                ※諸注意
+            </div>
         </div>
     </body>
-    </html>
+</html>

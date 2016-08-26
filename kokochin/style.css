@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+    font-family: "メイリオ", sans-serif;
+    font-size: 18px;
+    background-image: url("background.jpg");
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+#header > table {
+    margin: 20px auto 0px auto;
+}
+
+#balloon {
+    margin: 50px auto 0px auto;
+    width: 400px;
+    height: 400px;
+    background-color: #FFD700;
+    border-radius: 200px;
+    color: #0000FF;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    transition: 0.3s;
+     -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+     -o-transition: 0.3s;
+     -ms-transition: 0.3s;
+}
+
+#balloon:hover {
+    background-color: #dcba00;
+    color: #6900dc;
+    cursor: pointer;
+}
+
+#balloon > p {
+    margin-top: 70px;
+}
+
+.menu_button {
+    background-color: #64F9C1;
+    margin: 0px 30px 0px 30px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.3s;
+     -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+     -o-transition: 0.3s;
+     -ms-transition: 0.3s;
+}
+
+.menu_button:hover {
+    background-color: #095d3d;
+    color: #fd5ab3;
+    cursor: pointer;
+}
+
+.menu_button > p {
+    margin-top: -1px;
+}
